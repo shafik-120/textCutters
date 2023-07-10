@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+/* -================= */
+/* calculater */
+.fastLine{
+  display: flex;
+}
+.allgor{
+  border: 1px solid gray;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 5px 0 gray;
+  border-radius: 6px;
+  padding: 10px;
+  color: rgb(17, 12, 12);
+  font-weight: 600;
+}
+.gorNum{
+  border-radius: 6px;
+  padding: 4px;
+  background: rgb(0, 255, 242);
+  display: inline-block;
+}
+.viewNum{
+  border: 2px solid green;
+  /* overflow: hidden; */
+  height: 50px;
+  margin: 20px 0;
+}
+.viewNum p:nth-child(1){
+  background: #000;
+  color: white;
+}
+
+.viewNum p:nth-child(2){
+  background: rgb(2, 13, 46);
+  color: white;
+  transform: translateY(-90px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================ */
+    .InputBox{
+      display: block;
+  
+    }
+    .Allwork{
+      display: flex;
+    }
+    .input_Btn{
+      display: flex;
+      margin: 30px;
+    }
+  
+    #textAreaStyle1, #textAreaStyle2{
+      outline: none;
+      border: 2px dashed;
+      border-radius: 2px;
+      box-shadow: 0px 0px 6px 0px gray;
+      padding: 9px;
+    }
+    button{
+      box-shadow: 0px 0px 6px 0px gray;
+      border: 2px dashed green;
+      padding: 8px 20px;
+      margin: 9px 23px;
+      border-radius: 5px;
+      text-transform: capitalize;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    #clickCopyText{
+      width: 100% !important;
+      box-shadow: 0 0 9px 0 gray;
+      border-radius: 6px;
+      padding: 12px;
+      height: 500px;
+      outline: 2px dashed green;
+      border: none;
+      /* position: relative; */
+    }
+  
+  .fastHide{
+    display: none;
+  }
+  .oneStep{
+    width: 50%;
+  }
+  .copyHeading{
+    display: none;
+    position: relative;
+  }
+  .copyHeading::after{
+    position: absolute;
+    content: attr(copyatt);
+    top: -40px;
+    left: 40%;
+    background: #a232bd;
+    color: #f8f7f7;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 2px 6px;
+  }
+  .copyHeading::before{
+    position: absolute;
+    content: "";
+    top: -23px;
+    left: 45%;
+    background: #a232bd;
+    width: 10px;
+    transform: rotate(41deg);
+    height: 10px;
+  }
+  
+  
