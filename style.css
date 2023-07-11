@@ -4,7 +4,7 @@
 
 /* -================= */
 /* calculater */
-.fastLine{
+/* .fastLine{
   display: flex;
 }
 .allgor{
@@ -17,6 +17,7 @@
   padding: 10px;
   color: rgb(17, 12, 12);
   font-weight: 600;
+  cursor: pointer;
 }
 .gorNum{
   border-radius: 6px;
@@ -26,22 +27,28 @@
 }
 .viewNum{
   border: 2px solid green;
-  /* overflow: hidden; */
+  overflow: hidden;
   height: 50px;
   margin: 20px 0;
+  width: 200px;
 }
 .viewNum p:nth-child(1){
   background: #000;
   color: white;
 }
-
 .viewNum p:nth-child(2){
   background: rgb(2, 13, 46);
   color: white;
-  transform: translateY(-90px);
 }
-
-
+.numberOto{
+  transition: .5s;
+  transform: translateY(-40px);
+}
+.finalResult{
+  transition: .5s;
+  transform: translateY(-35px);
+}
+ */
 
 
 
