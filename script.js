@@ -183,7 +183,7 @@ brackLine.addEventListener('click', ()=>{
   for (let i = 0; i < words.length; i++) {
     result += words[i] + ' ';
     
-    if ((i + 1) % 25 === 0) {
+    if ((i + 1) % 320 === 0) {
       result += '<br><br> A';
     }
   }
