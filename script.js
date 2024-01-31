@@ -177,20 +177,20 @@ clickCopyText.addEventListener('click', ()=>{
 const brackLine = document.querySelector('.brackLine');
 brackLine.addEventListener('click', ()=>{
   const textAreaStyle2 = document.querySelector('#textAreaStyle2').value;
- // const words = textAreaStyle2.split(' ');
- // let result = '';
+  const words = textAreaStyle2.split(' ');
+  let result = '';
   
-  //for (let i = 0; i < words.length; i++) {
-   // result += words[i] + ' ';
+  for (let i = 0; i < words.length; i++) {
+    result += words[i] + ' ';
     
-   // if ((i + 1) % 320 === 0) {
-    //  result += '<br><br> A';
-   // }                    
+    if ((i + 1) % 320 === 0) {
+      result += '<br><br> A';
+    }                    
   
   }
   
   const output = document.getElementById('output'); 
-  // output.innerHTML = result;                                                                                                                                                                                    
+   output.innerHTML = result;                                                                                                                                                                                    
                       
   
 })
