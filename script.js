@@ -184,7 +184,7 @@ brackLine.addEventListener('click', ()=>{
     result += words[i] + ' ';
     
     if ((i + 1) % 320 === 0) {
-      result += '<br><br> A';
+      result += '.<br><br> The ';
     }                    
   
   }
